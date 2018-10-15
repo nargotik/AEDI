@@ -2,7 +2,7 @@
  * @header      main.c
  * @abstract    Compara 3 Valores
  * @discussion  Compara 3 Valoes e mostra o maior ou diz que sao todos iguais.
- * @author      Daniel Torres <a17442|at|alunos.ipca.pt>
+ * @author      Daniel Torres <964518+nargotik@users.noreply.github.com>
  * @link        Daniel Torres GIT <https://github.com/nargotik>
  * @ref         some reference
  * @version     1.0 15 de Outubro de 2018
