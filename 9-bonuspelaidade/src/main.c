@@ -1,10 +1,10 @@
 /*!
  * @header      main.c
  * @abstract    Programa para calcular bonus de salário mediante anos de trabalho e filhos.
- * @discussion  5 eur a cada ano acima dos 45
- *              10 eur ano ate 10 anos 20 por cada ano a mais
+ * @discussion  5 eur a cada ano de idade acima dos 45
+ *              10 eur ano de antiguidade ate 10 anos 20 por cada ano a mais
  *              
- *              25 eur por filhpo no maximo ate 3 filhos acima de 3 filhos recebera 75eur
+ *              25 eur por filho no maximo ate 3 filhos acima de 3 filhos recebera 75eur
  * 
  * @author      Daniel Torres <a17442|at|alunos.ipca.pt>
  * @link        Daniel Torres GIT <https://github.com/nargotik>
@@ -14,7 +14,6 @@
 
 
 #include <stdio.h>
-#include <stdlib.h>
 
 
 /**
@@ -87,11 +86,9 @@ int calcula_bonus_idade(int idade) {
 /*!
  * @function    main
  * @abstract    main program function.
- * @param       argc    ....
- * @param       argv     ....
- * @result      An integer result of this function.
+ * @return      void.
  */
-int main(int argc, char** argv)
+void main()
 {
     // Armazena antiguidade do colaborador
     int antiguidade=0;
@@ -129,6 +126,5 @@ int main(int argc, char** argv)
             bonus_antiguidade,
             bonus_filhos + bonus_idade + bonus_antiguidade);
  
-    return (EXIT_SUCCESS);
 }
 
