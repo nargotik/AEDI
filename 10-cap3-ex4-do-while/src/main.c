@@ -35,7 +35,7 @@ int main()
     int contador_aluno = 1;
     
     // Numero de notas a contar
-    int alunos = 3;
+    int alunos = 20;
     // Numero de notas por aluno
     int notas_aluno = 3;
     
