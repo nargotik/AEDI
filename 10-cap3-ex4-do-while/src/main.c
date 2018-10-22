@@ -25,6 +25,7 @@
 /*!
  * @function    main
  * @abstract    main program function.
+ * @result      Média das notas inseridas
  */
 int main()
 {
@@ -35,7 +36,7 @@ int main()
     int contador_aluno = 1;
     
     // Numero de notas a contar
-    int alunos = 20;
+    int alunos = 3;
     // Numero de notas por aluno
     int notas_aluno = 3;
     
@@ -104,7 +105,7 @@ int main()
         if (contador==1) {
             media_max = media_min
                     = media_aluno; // reset ao minimo e maximo
-            media_max_aluno = media_max_aluno
+            media_max_aluno = media_min_aluno
                     = contador; // reset ao numero de aluno
             
         } else {
